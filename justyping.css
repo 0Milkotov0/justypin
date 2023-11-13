@@ -1,1 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500;600&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playpen Sans', cursive;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("imagesforswiftz/dotted.jpg");
+    background-size: cover;
+    background-repeat:repeat-y;
+    background-color:white;
+}
+
+
+/* header */
+
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 2%;
+    min-width:410px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.logo{
+    display: flex;
+    vertical-align: center;
+}
+
+.logo_1{
+   height: 80px;
+   aspect-ratio: 1;
+}
+
+.logo_2{
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 25px;;
+    margin-left: -8px;
+}
+
+.rcv{
+    display: flex;
+    vertical-align: center;
+}
+
+.logo_3{
+    height: 80px;
+    aspect-ratio: 1;
+ }
+
+
+/* navigation bar */
+
+
+.navbar{
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 98;
+}
+
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    border: none;
+    border-radius: 200px;
+    width: 250px;
+    min-width: 200px;
+    margin: 20px;
+
+}
+
+.botton{
+    padding: 20px;
+   height: 70px;
+   aspect-ratio: 1;
+}
+
+
+/* BODY */
+
+
+.keyboard{
+    display: flex;
+    position: fixed;
+    min-width: 300px;
+    justify-content: space-around;
+    bottom: 20%;
+    height: 210px;
+    vertical-align: center;
+    left: 0;
+    right: 0;
+}
+
+.board{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key{
+    display: flex;
+}
+
+.letters{
+    margin:5px;
+    border:solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius:5px;
+    height: 60px;
+    aspect-ratio: 1;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*paragraph*/
+
+.paragraph{
+    display: flex;
+    position: fixed;
+    min-width: 300px;
+    justify-content: space-around;
+    top: 20%;
+    height: 210px;
+    vertical-align: center;
+    left: 0;
+    right: 0;
+}
+
+.window{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 300px;
+}
