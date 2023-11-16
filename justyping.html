@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="SwifZ.css">
-    <link rel="stylesheet" href="SwiftZ.js">
     <title>JUSTYPlN</title>
     <link rel="shortcut icon" href="imagesforswiftz\_96196285-169d-4659-abe1-8da158984ace.jpg"/>
 </head>
@@ -19,59 +18,117 @@
           </div>
     </div>
 
-    <div class="main"> 
+
+<div class="sir"><!-- wrapper -->
+    <div class="main"><!-- content box -->
+
       
-      <div class="paragraph">
-          <div class="window">
-            
+          <div class="window" id="window"><!-- typing test -->
+            <p class="brownmundae" id="brownmundae"></p>
           </div>
-      </div>
 
 
-        <div class="keyboard">
             <div class="board">
-      <div class="key">
-        <div class="letters">Q</div>
-        <div class="letters">W</div>
-        <div class="letters">E</div>
-        <div class="letters">R</div>
-        <div class="letters">T</div>
-        <div class="letters">Y</div>
-        <div class="letters">U</div>
-        <div class="letters">I</div>
-        <div class="letters">O</div>
-        <div class="letters">P</div>
+
+
+      <div class="caps">
+        <div class="keys">Q</div>
+        <div class="keys">W</div>
+        <div class="keys">E</div>
+        <div class="keys">R</div>
+        <div class="keys">T</div>
+        <div class="keys">Y</div>
+        <div class="keys">U</div>
+        <div class="keys">I</div>
+        <div class="keys">O</div>
+        <div class="keys">P</div>
       </div>
-      <div class="key">
-        <div class="letters">A</div>
-        <div class="letters">S</div>
-        <div class="letters">D</div>
-        <div class="letters">F</div>
-        <div class="letters">G</div>
-        <div class="letters">H</div>
-        <div class="letters">J</div>
-        <div class="letters">K</div>
-        <div class="letters">L</div>
+
+
+      <div class="caps">
+        <div class="keys">A</div>
+        <div class="keys">S</div>
+        <div class="keys">D</div>
+        <div class="keys">F</div>
+        <div class="keys">G</div>
+        <div class="keys">H</div>
+        <div class="keys">J</div>
+        <div class="keys">K</div>
+        <div class="keys">L</div>
       </div>
-      <div class="key">
-        <div class="letters">Z</div>
-        <div class="letters">X</div>
-        <div class="letters">C</div>
-        <div class="letters">V</div>
-        <div class="letters">B</div>
-        <div class="letters">N</div>
-        <div class="letters">M</div>
-        </div>
+
+
+      <div class="caps">
+        <div class="keys">Z</div>
+        <div class="keys">X</div>
+        <div class="keys">C</div>
+        <div class="keys">V</div>
+        <div class="keys">B</div>
+        <div class="keys">N</div>
+        <div class="keys">M</div>
       </div>
+
+
       </div>
+
+
     </div> 
+
+
+  </div>
+  
 
     <div class="navbar">
           <div class="nav">
-            <img class="botton" src="imagesforswiftz\home botton.svg" alt="home">
-            <img class="botton" src="imagesforswiftz\undo-arrow.png" alt="setting">
-            <img class="botton"  src="imagesforswiftz\eroor.svg" alt="error">
+            <img onclick='refreshpage()' class="botton" src="imagesforswiftz\home botton.svg" alt="home">
+            <img id='return' onclick="refresh()" class="botton" src="imagesforswiftz\undo-arrow.png" alt="return">
+            <img onclick='popupopen()' class="botton"  src="imagesforswiftz\eroor.svg" alt="error">
           </div>
      </div>
+
+
+     <div class="tagmain">
+      <img class="tag" src="imagesforswiftz\tag.svg" alt="tag">
+     </div>
+
+
+     <div class="timer">
+      
+     </div>
+
+
+    <div class="popup" id="popup">
+       <div class="title">
+        <h1>Any Problems?</h1>
+       </div>
+
+
+       <div class="content">
+        <form>
+          
+        </form>
+       </div>
+
+        <div class="mail">
+
+        </div>
+
+
+       <div class="below">
+        
+        <div class="bilow">
+          <img class="tab" id="tab" src="imagesforswiftz\tab-key.png" alt="tab">
+          <p> You can use key to refresh the typing test</p>
+        </div>
+        
+       </div>
+
+    </div>
+
+
+     <script src="paragraph.js"></script>
+     <script src="keyboard.js"></script>
+     <script src="refresh.js"></script>
+     <script src="email.js"></script>
 </body>
 </html>
