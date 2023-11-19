@@ -115,6 +115,7 @@ function resetGame() {
     inpField.value = "";
     timeTag.innerText = timeLeft;
     wpmTag.innerText = 0;
+    WPMsus.innerText= 0;
     mistakeTag.innerText = 0;
     cpmTag.innerText = 0;
 }
