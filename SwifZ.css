@@ -329,10 +329,9 @@ z-index: -999;
     border-radius: 20px;
     border-width: 4px;
     border-color: black;
-    background-image: url("imagesforswiftz/blue-popup-background.svg");
     background-size:cover;
     background-repeat:no-repeat;
-    background-color:white;
+    background-color:yellow;
     background-position: center;
     position: absolute;
     top: -50%;
@@ -340,7 +339,7 @@ z-index: -999;
     transform: translate(-50%,-50%);
     text-align: center;
     visibility: hidden;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     transition: 1s;
@@ -371,6 +370,7 @@ z-index: -999;
     font-size: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
+      font-weight: bold;
   }
 
   .bilow{
