@@ -394,10 +394,10 @@ z-index: -999;
   }
 
   .content div{
-    background-color: yellow;
+    background-color: red;
     display: flex;
     width: 100%;
-    color: black;
+    color: white;
     font-size: 4vh;
     margin: 10px;
     border: solid;
