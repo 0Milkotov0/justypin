@@ -28,10 +28,13 @@ function generateParagraph(){
 }
 
 
+var generatedParagraph=[generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph(),generateParagraph()];
+
+
     function loadParagraph() {
         typingText.innerHTML = "";
         let generated="";
-        for(let i=0;i<5;i++){generated+= generateParagraph();}
+        for(let i=0;i<5;i++){generated+= getRandom(generatedParagraph);}
         
         generated.split("").forEach(char => {
             console.log(char);
