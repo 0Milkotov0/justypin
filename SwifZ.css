@@ -331,7 +331,7 @@ z-index: -999;
     border-color: black;
     background-size:cover;
     background-repeat:no-repeat;
-    background-color:yellow;
+     background-color:yellow;
     background-position: center;
     position: absolute;
     top: -50%;
@@ -339,7 +339,7 @@ z-index: -999;
     transform: translate(-50%,-50%);
     text-align: center;
     visibility: hidden;
-    color: black;
+     color: black;
     display: flex;
     flex-direction: column;
     transition: 1s;
@@ -370,7 +370,7 @@ z-index: -999;
     font-size: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
-      font-weight: bold;
+    font-weight: bold;
   }
 
   .bilow{
@@ -394,10 +394,10 @@ z-index: -999;
   }
 
   .content div{
-    background-color: red;
+     background-color: red;
     display: flex;
     width: 100%;
-    color: white;
+     color: white;
     font-size: 4vh;
     margin: 10px;
     border: solid;
