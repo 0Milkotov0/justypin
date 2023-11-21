@@ -35,10 +35,9 @@ body{
     z-index: 99;
     margin-left:-3px;margin-top:-3px;margin-right:-3px;
     border:solid;
-    border-width:3px;
+    border-width:0.3vh;
     height: 13.5%;
     min-height: 86px;
-    max-height: 200px;
 }
 
 .logo{
@@ -85,8 +84,8 @@ body{
     left: 0;
     right: 0;
     z-index: 98;
-    height:115px;
-    min-height: 60px;
+    height:14.4vh;
+    max-height: 250px;
 }
 
 .nav{
@@ -95,15 +94,17 @@ body{
     justify-content: space-around;
     border: solid;
     border-radius: 200px;
-    width: 250px;
+    width: 31vh;
     min-width: 150px;
     margin: 20px;
-    border-width: 3px;
+    border-width: 0.3vh;
 }
 
 .botton{
-    padding: 20px;
-   height: 70px;
+   padding: 20px;
+   height: 9vh;
+   max-height: 100px;
+   min-height: 70px;
    aspect-ratio: 1;
 }
 
@@ -140,7 +141,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 24px;
+    font-size: 3.1vh;
     text-align: justify;
     letter-spacing: 1px;
     word-break: normal;
@@ -148,8 +149,8 @@ body{
     height: 4%;
     background-color: yellow;
     border: solid;
-    border-width: 3px;
-    border-radius: 5px;
+    border-width: 0.3vh;
+    border-radius: 1vh;
     width: 100%;
     min-width: 310px;
     margin-bottom: 1%;
@@ -187,13 +188,13 @@ body{
     margin:5px;
     border:solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 0.3vh;
     border-radius: 1vh;
     width:8.43%;
     min-width: 26.13px;
     aspect-ratio: 1;
     background-color: yellow;
-    font-size: 20px;
+    font-size: 2.6vh;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -239,13 +240,14 @@ body{
     margin-bottom: 3.5%;
     display: flex;
     background-color: yellow;
-    height: 210px;
+    height: 26vh;
+    min-height: 210px;
     width: 100%;
     min-width: 310px;
-    border-radius: 5px;
+    border-radius: 1vh;
     border: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 0.3vh;
     overflow-y: auto;
     scroll-behavior: smooth;
 }
@@ -255,7 +257,7 @@ body{
 }
 
 .window p{
-    font-size: 1.56rem;
+    font-size: 3.1vh;
     text-align: justify;
     letter-spacing: 1px;
     word-break: break-all;
@@ -327,11 +329,11 @@ z-index: -999;
     height: 70%;
     border: solid;
     border-radius: 20px;
-    border-width: 4px;
+    border-width: 0.4vh;
     border-color: black;
     background-size:cover;
     background-repeat:no-repeat;
-     background-color:yellow;
+    background-color:yellow;
     background-position: center;
     position: absolute;
     top: -50%;
@@ -339,7 +341,7 @@ z-index: -999;
     transform: translate(-50%,-50%);
     text-align: center;
     visibility: hidden;
-     color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     transition: 1s;
@@ -368,8 +370,6 @@ z-index: -999;
 
   .bilow p{
     font-size: 2vh;
-    margin-left: 2vh;
-    margin-right: 2vh;
     font-weight: bold;
   }
 
@@ -394,10 +394,10 @@ z-index: -999;
   }
 
   .content div{
-     background-color: red;
+    background-color: red;
     display: flex;
     width: 100%;
-     color: white;
+    color: rgb(255, 255, 255);
     font-size: 4vh;
     margin: 10px;
     border: solid;
@@ -407,12 +407,4 @@ z-index: -999;
     text-align: center;
     justify-content: space-around;
   }
-
-
-
-  
-
-
-
-
 
