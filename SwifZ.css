@@ -370,6 +370,7 @@ z-index: -999;
 
   .bilow p{
     font-size: 2vh;
+          margin-left: 10px;
     font-weight: bold;
   }
 
